@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c4d7a9a-44ef-4507-aae4-d9166475c3a5" name="Default Changelist" comment="" />
+    <list default="true" id="0c4d7a9a-44ef-4507-aae4-d9166475c3a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/SettingsController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/database.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/migrations/1619049581846-CreateSettings.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Setting.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/SettingsRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/semver.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mkdirp/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/bin/cmd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mkdirp/bin/cmd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mkdirp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/lib/find-made.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/lib/mkdirp-manual.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/lib/mkdirp-native.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/lib/opts-arg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/lib/path-arg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/lib/use-native.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mkdirp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/readme.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mkdirp/readme.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/safe-buffer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ts-node-dev/node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ts-node-dev/node_modules/.bin/mkdirp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ts-node-dev/node_modules/.bin/mkdirp.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ts-node-dev/node_modules/.bin/mkdirp.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,21 +57,74 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="settings: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1e4EPnhIK3bd2w8IguwEryL4JqC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="C:\NLW5\projeto_node\node_modules\typescript\lib" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="database: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="database: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@1387d853" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -50,16 +137,44 @@
       <option name="presentableId" value="Default" />
       <updated>1593572442875</updated>
       <workItem from="1593572444063" duration="5555000" />
+      <workItem from="1593594176578" duration="5647000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2281" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593596776562">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2281" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593596776562" />
     <state x="2469" y="167" key="FileChooserDialogImpl" timestamp="1593580367750">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state x="2469" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593580367750" />
+    <state width="1024" height="210" key="GridCell.Tab.0.bottom" timestamp="1593596842031">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593596842031" />
+    <state width="1024" height="210" key="GridCell.Tab.0.center" timestamp="1593596842031">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593596842031" />
+    <state width="1024" height="210" key="GridCell.Tab.0.left" timestamp="1593596842031">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593596842031" />
+    <state width="1024" height="210" key="GridCell.Tab.0.right" timestamp="1593596842031">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593596842031" />
+    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1593596624734">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593596624734" />
   </component>
 </project>
